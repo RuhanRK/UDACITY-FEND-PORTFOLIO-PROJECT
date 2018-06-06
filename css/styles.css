@@ -1,0 +1,270 @@
+/* Google Font Section */
+/* For Header */
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display');
+/* For Featured Header */
+@import url('https://fonts.googleapis.com/css?family=Lobster');
+/* Global section------------------- */
+
+* {
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    color: #2d3c49;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+a {
+    text-decoration: none;
+    color: #7d97ad;
+}
+
+h1,
+h2,
+h4 {
+    margin: 0 auto;
+}
+
+h1 {
+    font-size: 4em;
+}
+
+h3 {
+    font-size: 2em;
+}
+
+h4,
+h2 {
+    font-size: 1.7em;
+}
+
+/* Header section ------------------*/
+
+.header {
+    border-bottom: 3px solid #7d97ad;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 28px;
+    font-family: 'Playfair Display', serif;
+
+}
+
+#logo {
+    height: 85px;
+    border-radius: 100%;
+    position: relative;
+    align-self: center;
+    margin-bottom: 5px;
+    box-shadow: -6px 5px 5px #aaa;
+}
+
+.header-text {
+    font-weight: 200;
+    text-align: end;
+    margin-bottom: 5px;
+    
+}
+
+.header-title {
+    font-weight: 200;
+    font-size: 2.25rem;
+    margin-top: 25px;
+}
+
+
+
+/* Hero Section --------------*/
+
+.hero {
+    display: flex;
+}
+.hero-image{
+    width: 100%;
+    margin: 0 auto;
+}
+.hero-image img{
+    width: 100%;
+    margin: 0 auto;
+}
+
+
+
+
+/* Featured Work */
+
+#showcase {
+    padding: inherit;
+}
+
+.featured-work {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+.showcase-header {
+    width: 100%;
+    margin-top: 1em;
+    color: #7d97ad;
+    margin-bottom: 10px;
+    font-family: 'Lobster',
+    cursive;
+}
+
+.project-article {
+    width: 32%;
+    margin-bottom: auto;
+    text-align: center;
+    box-shadow: 5px 5px 5px #ccc;
+    
+}
+
+.project-article a {
+    font-size: 1em;
+}
+
+.project-article img {
+    width: 100%;
+}
+
+.featured {
+    font-weight: 600;
+    font-size: 1.4em;
+    margin: 0 auto;
+}
+
+/* Footet Sectio --------- */
+.footer-text {
+    text-align: center;
+    font-size: 1em;
+    color: #837C7D;
+}
+
+@media screen and (max-width: 425px){
+    .header{
+        flex-direction: column;
+        align-items: center;
+    }
+    #logo{
+        align-self: center;
+    }
+    .header-details{
+        text-align: center;
+        margin-top: 5px;
+    }
+    .header-title{
+        margin-top: 10px;
+    }
+    
+}
+@media screen and (max-width: 500px) {
+    h1 {
+        font-size: 2.4em;
+    }
+    h3 {
+        font-size: 1.2em;
+    }
+    h4,
+    h2 {
+        font-size: 1.3em;
+    }
+    h2 {
+        padding-left: 5px;
+    }
+    #logo {
+        height: 4.5em;
+        width: auto;
+    }
+    .project-article {
+        box-shadow: 5px 5px 5px #ccc;
+        width: 100%;
+        margin-bottom: .8em;
+        padding: 5px;
+        border: 1px solid #ccc;
+    }
+    .project-article a {
+        font-size: 1em;
+    }
+    .featured-work {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+}
+
+@media screen and (min-width: 501px) and (max-width: 725px) {
+    h1 {
+        font-size: 3em;
+    }
+    h3 {
+        font-size: 1.7em;
+    }
+    h4,
+    h2 {
+        font-size: 1.8em;
+    }
+    #logo {
+        height: 7em;
+        width: auto;
+    }
+    .project-article {
+        width: 100%;
+        margin-bottom: 1em;
+    }
+    .project-article a {
+        font-size: 1.3em;
+    }
+    .featured-work {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+}
+
+@media screen and (min-width: 726px) and (max-width: 950px) {
+    h1 {
+        font-size: 3.8em;
+    }
+    h3 {
+        font-size: 1.6em;
+    }
+    h4,
+    h2 {
+        font-size: 1.5em;
+    }
+    #logo {
+        height: 8em;
+        width: auto;
+    }
+    .project-article {
+        width: 100%;
+        margin-bottom: 1em;
+        margin: 4px;
+        box-shadow: 2px 5px 2px #ccc;
+        
+    }
+    .featured-work{
+        padding-right: 0px;
+    }
+     .featured-work :first-child{
+        margin-left: 0px;
+    }
+    
+    .featured-work article:last-child {
+        margin-right: 0px;
+    }
+    .project-article a {
+        font-size: .8em;
+    }
+}
+
+@media screen and (max-width: 950px) {
+    .container {
+        width: 100%;
+    }
+}
