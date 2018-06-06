@@ -19,6 +19,8 @@ Once you've successfully replicated the design mockup, you are encouraged to con
 4. Take the time to personalize your portfolio with custom colors, additional content and your own images.
 5. Validate your HTML and CSS against the W3C's Validators.
 
+**Click _here_ for visit my page** https://ruhanrk.github.io/UDACITY-FEND-PORTFOLIO-PROJECT/
+
 ** _"Document checking completed. No errors or warnings to show."_ By HTML Validator **
 
 ** _"Congratulations! No Error Found."_ By W3C CSS Validator results for TextArea (CSS level 3 + SVG) **
