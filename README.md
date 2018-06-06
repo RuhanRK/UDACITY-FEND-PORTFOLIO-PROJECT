@@ -22,3 +22,4 @@ Once you've successfully replicated the design mockup, you are encouraged to con
 ** _"Document checking completed. No errors or warnings to show."_ By HTML Validator **
 
 ** _"Congratulations! No Error Found."_ By W3C CSS Validator results for TextArea (CSS level 3 + SVG) **
+> I have added 'R' favicon
